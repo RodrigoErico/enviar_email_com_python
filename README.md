@@ -1,1 +1,2 @@
-# enviar_email_com_python
+# Enviar um e-mail 
+. Enviando um e-mail com python, nesse caso estou usando o gmail para o projeto.
