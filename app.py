@@ -11,3 +11,5 @@ msg['Subject'] = 'Aqui será o assunto da mensagem!'
 msg['From'] = 'remetente@gmail.com'
 msg['To'] = 'destinatario@gmail.com'
 msg.set_content('Aqui será a mensagem')
+
+with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
